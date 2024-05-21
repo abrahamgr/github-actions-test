@@ -17,7 +17,7 @@ export default defineConfig({
       include: ['src/components/**/*.{ts,tsx}', 'src/helpers/**/*.{ts,tsx}'],
       // if you want to exclude some files
       exclude: [],
-      reporter: ['html', 'text-summary'],
+      reporter: ['html', 'text-summary', 'cobertura'],
       thresholds: {
         functions: 50,
         lines: 50,

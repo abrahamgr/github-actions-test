@@ -7,7 +7,7 @@
     "plugin:react-hooks/recommended",
     "plugin:testing-library/react"
   ],
-  "ignores": ["public/**/*", "dist/**/*", ".eslintrc"],
+  "ignores": ["public/**/*", "dist/**/*", ".eslintrc.json", "vite.config.ts"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["react-refresh", "testing-library"],
   "rules": {

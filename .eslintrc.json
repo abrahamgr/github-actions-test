@@ -5,20 +5,17 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:testing-library/react"
   ],
-  "ignores": [
-    "public/**/*",
-    "dist/**/*",
-    // 'vite-env.d.ts',
-  ],
+  "ignores": ["public/**/*", "dist/**/*", ".eslintrc"],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["react-refresh"],
+  "plugins": ["react-refresh", "testing-library"],
   "rules": {
     "react-refresh/only-export-components": [
       "warn",
-      { "allowConstantExport": true },
+      { "allowConstantExport": true }
     ],
     "quotes": ["error", "single"],
-    "no-trailing-spaces": ["error"],
-  },
+    "no-trailing-spaces": ["error"]
+  }
 }

@@ -1,6 +1,6 @@
 {
   "env": { "browser": true, "es2020": true },
-  "files": ["**/*.{ts,tsx}"],
+  "files": ["**/*.ts", "**/*.tsx"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
